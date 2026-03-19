@@ -1,0 +1,15 @@
+sort1 uses: Bubble sort
+
+How do you know?: When the input was already sorted, sort1 was faster,
+but it was slower when the input was not sorted.
+Bubble sort has Big O of O(n^2) and Big Omega of O(n).
+
+sort2 uses: Merge sort
+
+How do you know?: sort2 was very fast for both sorted and unsorted input.
+Merge sort has Big O of O(n log n) and Big Omega of O(n log n).
+
+sort3 uses: Selection sort
+
+How do you know?: sort3 took almost the same time for sorted and unsorted input, and it was slower.
+Selection sort has Big O of O(n^2) and Big Omega of O(n^2).
