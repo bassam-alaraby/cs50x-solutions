@@ -125,7 +125,7 @@ cs50x-solutions/
 * Week 7: SQL
 * Week 8: HTML, CSS, JavaScript
 * Week 9: Flask
-* Week 10: The End
+* Week 10: The Final Project
 
 ## ⚠️ Note
 
