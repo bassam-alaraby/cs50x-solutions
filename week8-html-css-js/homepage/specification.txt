@@ -1,0 +1,18 @@
+HTML Tags Used:
+
+html
+head
+body
+header
+nav
+section
+div
+ul
+li
+a
+
+JavaScript:
+I used JavaScript to create a simple Dark Mode feature by toggling a CSS class on the body element when clicking a button.
+
+Bootstrap:
+I used a Bootstrap Hero layout template to design the main section of the homepage and a dark mode buttom class.

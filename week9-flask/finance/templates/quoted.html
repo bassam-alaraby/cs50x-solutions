@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <div class="card text-center">
+        <div class="card-header">
+            Result
+        </div>
+
+        <div class="card-body">
+            <h5 class="card-title">{{ data.name }}</h5>
+            <p class="card-text">Symbol: {{ data.symbol }}</p>
+            <p class="card-text">Price: {{ data.price | usd }}</p>
+            <a href="/quote" class="btn btn-primary">Quote Again</a>
+        </div>
+    </div>
+{% endblock %}
