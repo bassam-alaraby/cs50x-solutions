@@ -1,0 +1,5 @@
+*.db
+*.o
+*.bmp
+output.wav
+week4-memory/recover/*.jpg
