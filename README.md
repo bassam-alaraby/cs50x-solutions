@@ -1,9 +1,7 @@
 # CS50x Solutions
-
 This repository contains my solutions for Harvard's CS50x course.
 
 ## 📚 Weeks Covered
-
 * Week 0: Scratch
 * Week 1: C
 * Week 2: Arrays
@@ -17,7 +15,6 @@ This repository contains my solutions for Harvard's CS50x course.
 * Week 10: The End
 
 ## 📂 Structure
-
 ```bash
 cs50x-solutions/
 ├── week0-scratch/
@@ -115,18 +112,20 @@ cs50x-solutions/
 │       ├── index.html
 │       └── styles.css
 │
-└── week9-flask/
-    ├── birthdays/
-    │   ├── app.py
-    │   ├── templates/
-    │   └── static/
-    └── finance/
-        ├── app.py
-        ├── helpers.py
-        ├── templates/
-        └── static/
+├── week9-flask/
+│   ├── birthdays/
+│   │   ├── app.py
+│   │   ├── templates/
+│   │   └── static/
+│   └── finance/
+│       ├── app.py
+│       ├── helpers.py
+│       ├── templates/
+│       └── static/
+│
+└── final-project/
+    └── README.md
 ```
 
 ## ⚠️ Note
-
 These are my personal solutions for learning purposes.
