@@ -1,4 +1,4 @@
-## Final Project
+## Brand Dog 🐕
 
 A Flask-based e-commerce website for a local hoodie brand.
 Uses sessions (no user accounts) to manage a shopping cart.
