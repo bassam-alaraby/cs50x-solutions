@@ -29,9 +29,11 @@ cs50x-solutions/
 │   ├── hello/
 │   │   ├── me/hello.c
 │   │   └── world/hello.c
+|   |
 │   ├── mario/
 │   │   ├── mario-less/mario.c
 │   │   └── mario-more/mario.c
+|   |
 │   └── cash/cash.c
 │
 ├── week2-arrays/
@@ -42,10 +44,8 @@ cs50x-solutions/
 ├── week3-algorithms/
 │   ├── plurality/plurality.c
 │   ├── runoff/runoff.c
+|   |
 │   └── sort/
-│       ├── sort1
-│       ├── sort2
-│       ├── sort3
 │       ├── random*.txt
 │       ├── reversed*.txt
 │       ├── sorted*.txt
@@ -57,37 +57,33 @@ cs50x-solutions/
 │   │   ├── helpers.c
 │   │   ├── helpers.h
 │   │   ├── bmp.h
-│   │   ├── images/*.bmp
-│   │   └── output files (out*.bmp)
+│   │   └── images/*.bmp
 │   │
 │   ├── recover/
 │   │   ├── recover.c
-│   │   ├── card.raw
-│   │   ├── 000.jpg
-│   │   ├── 001.jpg
-│   │   ├── 002.jpg
-│   │   └── ... (continues up to 049.jpg)
+│   │   └── card.raw
 │   │
 │   └── volume/
 │       ├── volume.c
-│       ├── input.wav
-│       └── output.wav
+│       └── input.wav
 │
 ├── week5-data-structures/
 │   ├── inheritance/inheritance.c
+|   |
 │   └── speller/
 │       ├── speller.c
 │       ├── dictionary.c
 │       ├── dictionary.h
 │       ├── dictionaries/
 │       ├── texts/
-│       └── keys/ (multiple test files)
+│       └── keys/
 │
 ├── week6-python/
 │   ├── dna/
 │   │   ├── dna.py
-│   │   ├── databases/
-│   │   └── sequences/ (multiple files)
+│   │   ├── databases/ (csv files)
+│   │   └── sequences/
+|   |
 │   ├── sentimental-cash/cash.py
 │   ├── sentimental-hello/hello.py
 │   ├── sentimental-mario-less/mario.py
@@ -98,16 +94,20 @@ cs50x-solutions/
 │   ├── fiftyville/
 │   │   ├── log.sql
 │   │   └── answers.txt
+|   |
 │   ├── movies/ (multiple .sql files)
 │   └── songs/ (multiple .sql files)
 │
 ├── week8-html-css-js/
 │   ├── homepage/
 │   │   ├── index.html
-│   │   ├── styles.css
 │   │   ├── about.html
 │   │   ├── contact.html
+│   │   ├── psets.html
+│   │   ├── styles.css
+|   |   ├── specification.txt
 │   │   └── assets/
+|   |   
 │   └── trivia/
 │       ├── index.html
 │       └── styles.css
@@ -117,16 +117,17 @@ cs50x-solutions/
 │   │   ├── app.py
 │   │   ├── templates/
 │   │   └── static/
+|   |
 │   └── finance/
 │       ├── app.py
 │       ├── helpers.py
 │       ├── templates/
-│       └── static/
-│
+│       ├── static/
+│       └── requirements.txt
+| 
 └── final-project/
     ├── README.md
     └── assets/
-        └── home-screenshot.png
 ```
 
 ## ⚠️ Note
