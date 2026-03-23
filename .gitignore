@@ -1,5 +1,13 @@
 *.db
 *.o
-*.bmp
+out*.bmp
 output.wav
 week4-memory/recover/*.jpg
+week3-algorithms/plurality/plurality
+week3-algorithms/runoff/runoff
+week4-memory/filter-less/filter
+week4-memory/recover/recover
+week4-memory/volume/volume
+week5-data-structures/inheritance/inheritance
+week5-data-structures/speller/speller
+week5-data-structures/speller/speller50
