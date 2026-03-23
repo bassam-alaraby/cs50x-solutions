@@ -1,8 +1,7 @@
-# Final Project
+## Final Project
 
-**Brand Dog – E-commerce Website**
+A Flask-based e-commerce website for a local hoodie brand.
+Uses sessions (no user accounts) to manage a shopping cart.
 
-A simple e-commerce web application for a hoodies brand.
-
-## Project Repository
-👉 Coming soon
+## Project repository
+[![View Project](https://img.shields.io/badge/View-Brand_Dog-black?style=for-the-badge)](https://github.com/bassam-alaraby/brand-dog)
