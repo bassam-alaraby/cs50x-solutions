@@ -124,7 +124,9 @@ cs50x-solutions/
 │       └── static/
 │
 └── final-project/
-    └── README.md
+    ├── README.md
+    └── assets/
+        └── home-screenshot.png
 ```
 
 ## ⚠️ Note
