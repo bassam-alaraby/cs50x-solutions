@@ -127,7 +127,7 @@ cs50x-solutions/
 | 
 └── final-project/
     ├── README.md
-    └── assets/
+    └── preview.png
 ```
 
 ## ⚠️ Note
