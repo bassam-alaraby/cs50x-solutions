@@ -10,7 +10,7 @@ The project also includes Cloudinary media storage, Turso database integration, 
 
 ## Preview
 
-[![Home Page](preview.png)](https://vortex-rho-sepia.vercel.app/)
+[![Home Page](preview.png)](https://vortex-brand.vercel.app/)
 
 ## Project Repository
 
