@@ -1,4 +1,4 @@
-## VORTEX 🌀
+# VORTEX 🌀
 
 VORTEX is a modern streetwear e-commerce platform built as my CS50 final project.
 
@@ -8,10 +8,10 @@ Users can browse products, customize designs, manage their cart, and explore the
 
 The project also includes Cloudinary media storage, Turso database integration, secure admin management, and production-ready deployment.
 
-## Preview
+## Live Demo
 
-[![Home Page](preview.png)](https://vortex-brand.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Open-VORTEX-black?style=for-the-badge&logo=vercel)](https://vortex-brand.vercel.app/)
 
-## Project Repository
+## Repository
 
-[![View Project](https://img.shields.io/badge/View-VORTEX-black?style=for-the-badge)](https://github.com/bassam-alaraby/vortex)
+[![Source Code](https://img.shields.io/badge/View-GitHub-black?style=for-the-badge&logo=github)](https://github.com/bassam-alaraby/vortex)
