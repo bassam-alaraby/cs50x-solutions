@@ -126,8 +126,7 @@ cs50x-solutions/
 │       └── requirements.txt
 | 
 └── final-project/
-    ├── README.md
-    └── preview.png
+    └── README.md
 ```
 
 ## ⚠️ Note
