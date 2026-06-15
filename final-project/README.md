@@ -8,9 +8,9 @@ Users can browse products, customize designs, manage their cart, and explore the
 
 The project also includes Cloudinary media storage, Turso database integration, secure admin management, and production-ready deployment.
 
-## Live Demo
+## Live Site
 
-[![Live Demo](https://img.shields.io/badge/Open-VORTEX-black?style=for-the-badge&logo=vercel)](https://vortex-brand.vercel.app/)
+[![Live Site](https://img.shields.io/badge/Open-VORTEX-black?style=for-the-badge&logo=vercel)](https://vortex-brand.vercel.app/)
 
 ## Repository
 
