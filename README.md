@@ -1,72 +1,24 @@
-# CS50x Solutions
-This repository contains my solutions for Harvard's CS50x course.
+# CS50 Solutions
 
-## Weeks Covered
-* Week 0: Scratch
-* Week 1: C
-* Week 2: Arrays
-* Week 3: Algorithms
-* Week 4: Memory
-* Week 5: Data Structures
-* Week 6: Python
-* Week 7: SQL
-* Week 8: HTML, CSS, JavaScript
-* Week 9: Flask
-* Week 10: The End
+This repository contains my solutions, projects, and coursework from Harvard's CS50 courses.
+
+## Courses
+
+* CS50x: Introduction to Computer Science
+* CS50 Web: Web Programming with Python and JavaScript
 
 ## Structure
+
 ```bash
-cs50x-solutions/
-├── week0-scratch/
-│
-├── week1-c/
-│   ├── hello/
-│   ├── mario/
-│   └── cash/
-│
-├── week2-arrays/
-│   ├── caesar/
-│   ├── readability/
-│   └── scrabble/
-│
-├── week3-algorithms/
-│   ├── plurality/
-│   ├── runoff/
-│   └── sort/
-│
-├── week4-memory/
-│   ├── filter-less/
-│   ├── recover/
-│   └── volume/
-│
-├── week5-data-structures/
-│   ├── inheritance/
-│   └── speller/
-│
-├── week6-python/
-│   ├── dna/
-│   ├── sentimental-cash/
-│   ├── sentimental-hello/
-│   ├── sentimental-mario-less/
-│   ├── sentimental-mario-more/
-│   └── sentimental-readability/
-│
-├── week7-sql/
-│   ├── fiftyville/
-│   ├── movies/
-│   └── songs/
-│
-├── week8-html-css-js/
-│   ├── homepage/
-│   └── trivia/
-│
-├── week9-flask/
-│   ├── birthdays/
-│   └── finance/
-| 
-└── final-project/
-    └── README.md
+cs50-solutions/
+├── x/
+└── web/
 ```
 
 ## Note
+
 These are my personal solutions for learning purposes.
+
+## Author
+
+Bassam Tarek Al-Arabi

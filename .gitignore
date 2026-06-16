@@ -1,5 +1,21 @@
+# SQLite
 *.db
+*.sqlite3
+
+# C build artifacts
 *.o
+
+# CS50 outputs
 out*.bmp
 output.wav
-week4-memory/recover/*.jpg
+
+# Recover generated images
+**/recover/*.jpg
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
