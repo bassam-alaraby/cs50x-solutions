@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Remix icons -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <nav>
+            <a href="index.html" id="logo">
+                <i class="ri-google-fill"></i>
+            </a>
+            <a class="nav-link" href="images.html">Image Search</a>
+            <a class="nav-link" href="advanced.html">Advanced Search</a>
+        </nav>
+
+        <main class="page-center">
+            <div>
+                <img class="hero-image" src="assets/wc-doodle-2026.gif" alt="2026 World-Cup Doodle">
+            </div>
+
+            <form class="search-form" action="https://www.google.com/search">
+                <div class="input-with-icon">
+                    <i class="ri-search-line"></i>
+                    <input class="search-bar" type="text" name="q">
+                </div>
+                <div class="form-actions">
+                    <input class="btn" type="submit" value="Google Search">
+                    <input class="btn" type="submit" name="btnI" value="I'm Feeling Lucky">
+                </div>
+            </form>
+        </main>
+    </body>
+</html>

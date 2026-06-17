@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Remix icons -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <nav>
+            <a href="index.html" id="logo">
+                <i class="ri-google-fill"></i>
+            </a>
+            <a class="nav-link" href="index.html"><i class="ri-arrow-left-line"></i> Go back</a>
+        </nav>
+
+        <main class="advanced-page">
+            <h1 class="advanced-title">Advanced Search</h1>
+
+            <form class="advanced-form" action="https://www.google.com/search">
+                <div class="advanced-row">
+                    <label for="all">All these words:</label>
+                    <input id="all" type="text" name="as_q" placeholder="harvard cs50 web">
+                </div>
+
+                <div class="advanced-row">
+                    <label for="exact">This exact word or phrase:</label>
+                    <input id="exact" type="text" name="as_epq" placeholder="web programming with python">
+                </div>
+
+                <div class="advanced-row">
+                    <label for="any">Any of these words:</label>
+                    <input id="any" type="text" name="as_oq" placeholder="python django flask">
+                </div>
+                
+                <div class="advanced-row">
+                    <label for="none">None of these words:</label>
+                    <input id="none" type="text" name="as_eq" placeholder="javascript">
+                </div>
+                
+                <div class="advanced-actions">
+                    <input class="btn btn-primary" type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </main>
+    </body>
+</html>

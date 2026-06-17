@@ -1,0 +1,198 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-text:      #e8eaed;
+    --color-bg:        #22242a;
+    --color-btn-bg:    #303134;
+    --color-search-bg: #6c7071;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-bg);
+}
+
+nav {
+    border-bottom: 1px solid rgba(255,255,255,.08);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    padding: 24px 32px;
+}
+
+#logo {
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.nav-link,
+#logo {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.nav-link {
+    transition: color .2s ease;
+}
+
+.nav-link:hover {
+    color: #afb1b4;
+}
+
+.page-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 80px;
+}
+
+.hero-logo {
+    position: relative;
+    display: inline-block;
+}
+
+.hero-image {
+    width: 450px;
+    height: auto;
+    cursor: pointer;
+}
+
+.doodle-tag {
+    color: #4487f6;
+    font-size: 1.3rem;
+    position: absolute;
+    right: 57px;
+    bottom: 27px;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.form-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon i {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    color: #bdc1c6;
+    font-size: 18px;
+}
+
+.search-bar {
+    border: none;
+    border-radius: 24px;
+    background-color: var(--color-search-bg);
+    color: var(--color-text);
+    font-size: 16px;
+    height: 46px;
+    width: 600px;
+    padding: 0 48px;
+
+    transition: box-shadow .2s ease;
+}
+
+.search-bar:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px rgba(255,255,255,.12);
+}
+
+.btn {
+    border: 1px solid var(--color-btn-bg);
+    border-radius: 8px;
+    color: var(--color-text);
+    background-color: var(--color-btn-bg);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 16px;
+    height: 36px;
+    text-align: center;
+
+    transition: border-color .2s ease;
+}
+
+.btn-primary {
+    border-color: #4487f6;
+    background-color: #4487f6;
+}
+
+.btn:hover {
+    border-color: var(--color-text);
+    cursor: pointer;
+}
+
+
+/*=============================
+  ====== Advanced Search ======
+  =============================*/
+.advanced-page {
+    max-width: 900px;
+    margin-top: 80px;
+    padding: 4px 36px;
+}
+
+.advanced-title {
+    color: var(--color-text);
+    margin-bottom: 50px;
+}
+
+.advanced-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.advanced-row {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.advanced-row label {
+    color: var(--color-text);
+}
+
+.advanced-row input {
+    border: 1px solid var(--color-text);
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--color-text);
+    font-size: 16px;
+    height: 46px;
+    width: 600px;
+    padding: 0 12px;
+
+    transition: box-shadow .2s ease;
+}
+
+.advanced-row input:focus {
+    outline: none;
+    border-color: #4487f6;
+    box-shadow: 0 0 0 1px rgba(255,255,255,.12);
+}
+
+.advanced-actions {
+    display: flex;
+    justify-content: flex-end;
+}

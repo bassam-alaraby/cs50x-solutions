@@ -10,8 +10,13 @@ This folder contains my solutions for Harvard's CS50 Web Programming with Python
 
 ```bash
 web/
-└── project0/
-    └── search/
+├── assets
+│   └── wc-doodle-2026.gif
+├── advanced.html
+├── images.html
+├── index.html
+├── README.md
+└── style.css
 ```
 
 ## Note

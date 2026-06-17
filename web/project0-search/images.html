@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Remix icons -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <nav>
+            <a href="index.html" id="logo">
+                <i class="ri-google-fill"></i>
+            </a>
+            <a class="nav-link" href="index.html"><i class="ri-arrow-left-line"></i> Go back</a>
+        </nav>
+
+        <main class="page-center">
+            <div class="hero-logo">
+                <img class="hero-image" src="assets/wc-doodle-2026.gif" alt="2026 World-Cup Doodle">
+                <span class="doodle-tag">صور</span>
+            </div>
+
+            <form class="search-form" action="https://www.google.com/search">
+                <div class="input-with-icon">
+                    <i class="ri-image-circle-line"></i>
+                    <input class="search-bar" type="text" name="q">
+                </div>
+                <div class="form-actions">
+                    <input name="tbm" value="isch" type="hidden" data-rtl-listener="true">
+                    <input class="btn" type="submit" value="Image search">
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
+
