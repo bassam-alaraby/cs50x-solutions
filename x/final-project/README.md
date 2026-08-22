@@ -1,17 +1,13 @@
 # VORTEX 🌀
 
-VORTEX is a modern streetwear e-commerce platform built as my CS50 final project.
+VORTEX is a Flask-based e-commerce platform built as my CS50x final project.
 
-The project was created to combine fashion branding with a real-world web application experience — focusing on clean design, smooth user experience, and a minimal aesthetic inspired by modern streetwear brands.
+The project includes a responsive storefront with product variants, a shopping cart, custom design uploads, order processing, and an admin dashboard.
 
-Users can browse products, customize designs, manage their cart, and explore the brand through a fully responsive storefront built from scratch using Flask.
-
-The project also includes Cloudinary media storage, Turso database integration, secure admin management, and production-ready deployment.
-
-## Live Site
-
-[![Live Site](https://img.shields.io/badge/Open-VORTEX-black?style=for-the-badge&logo=vercel)](https://vortex-brand.vercel.app/)
+It uses Flask, Turso (LibSQL), Cloudinary, and the Telegram Bot API.
 
 ## Repository
+
+The submitted project source code is available in the public repository:
 
 [![Source Code](https://img.shields.io/badge/View-GitHub-black?style=for-the-badge&logo=github)](https://github.com/bassam-alaraby/vortex)
